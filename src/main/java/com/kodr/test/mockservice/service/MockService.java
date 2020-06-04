@@ -63,6 +63,4 @@ public class MockService {
         return collectFiles().stream().anyMatch(file -> file.getFileName().toString().equals(filename));
     }
 
-
-
 }
